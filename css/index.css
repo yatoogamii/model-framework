@@ -46,6 +46,14 @@ button {
   padding: 0.5rem;
 }
 
+@media screen and (max-width: 900px) {
+  .container-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .container-buttons__bulma-button {
   color: #00d1b2;
 }
